@@ -1,0 +1,63 @@
+.topbar {
+    font-family: 'Nunito', sans-serif;
+    /* flex: 4; */
+    max-width: calc(1693px - 287px);
+    width: calc(100% - 287px);
+    height: 130px;
+    background-color: #FDFDFF;
+    /* box-shadow: 0px 0px 11px -1px rgb(0 0 0 / 40%); */
+}
+  
+.topbarWrapper {
+    height: 100%;
+    padding: 0px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.heading {
+    font-size: 30px;
+    color: #4F4F4F;
+    cursor: pointer;
+}
+
+.searchBox {
+    width: 325px;
+}
+
+.search-icon {
+    color: #979797;
+    text-align: center;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.search-text {
+    padding-left: 3rem !important;
+}
+  
+.topRight {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+  
+.topbarIconContainer {
+    margin-right: 75px;
+}
+
+.topbarAvatar {
+    background: #F5F5F5;
+    border: 1px solid #E5E5E5;
+    padding: 10px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+  
+.topbarIcon {
+    width: 20px;
+    height: 20px;
+    color: #E41613;
+}
+  
