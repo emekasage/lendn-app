@@ -1,0 +1,130 @@
+.dashboard {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.cardTitle, .card-amount {
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+.card-percent {
+    font-size: 18px;
+    color: #979797;
+}
+
+.timeline {
+    font-size: 12px;
+    color: #4F4F4F;
+    line-height: 14px;
+}
+
+.loanRatioSection {
+    background: linear-gradient(142.74deg, #EF3054 0%, #360B0B 75.19%);
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+}
+
+.loanRatioText1 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.bgPie {
+    background-image: url("../../../../../public/assets/pie-chart-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 205px;
+}
+
+.pie-percentage {
+    font-size: 23px;
+    color: #4F4F4F;
+    top: 50%;
+    left: 22%
+}
+
+.smPie {
+    background-image: url("../../../../../public/assets/pie-chart-sm.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 103px;
+    height: 79px;
+    bottom: 54%;
+    left: 57%;
+}
+
+.pie-percentage-sm {
+    top: 45px;
+    left: 45%;
+}
+
+.active-square {
+    width: 28px;
+    height: 28px;
+}
+
+.active-text {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.inactive-square {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #FF9737;
+    background-color: #FF9737;
+}
+
+.bottomCards {
+    font-family: 'Nunito', sans-serif;
+    padding: 0.8rem 1.5rem 3.5rem;
+}
+
+.col-lg-3-5 {
+    flex: 0 0 auto;
+    width: 29.3% !important;
+}
+
+.col-lg-5-5 {
+    flex: 0 0 auto;
+    width: 41.4% !important;
+}
+
+.card-space {
+    padding: 1.3rem 0.20rem
+}
+
+.backCircle {
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    padding: 30px;
+}
+
+.smallCardTitle {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.smallCardTitle2 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.smallCardText {
+    color: #030229;
+    opacity: 0.7;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.menu-icon {
+    cursor: pointer;
+}
+
+.smallcardText2 {
+    font-size: 15px;
+    line-height: 20px;
+}

@@ -18,7 +18,7 @@ const Sidebar = () => {
         <ul className="sidebarList">
           <li>
             <NavLink
-              to="/dashboard"
+              to=""
               className="sidebarListItem d-flex align-items-center"
               activeClassName="nav--active"
             >
@@ -32,20 +32,14 @@ const Sidebar = () => {
             </NavLink>
           </li>
 
-          <li>
-            <NavLink
-              to="/log-complaint"
-              className="sidebarListItem d-flex align-items-center"
-              activeClassName="nav--active"
+          <li className="sidebarListItem d-flex align-items-center">
+            <FaRegListAlt className="sidebarIcon " />
+            <span
+              style={{ paddingLeft: "15px", fontSize: "15px" }}
+              className="fw-bold"
             >
-              <FaRegListAlt className="sidebarIcon " />
-              <span
-                style={{ paddingLeft: "15px", fontSize: "15px" }}
-                className="fw-bold"
-              >
-                Loan Management
-              </span>
-            </NavLink>
+              Loan Management
+            </span>
           </li>
 
           <li className="sidebarListItem d-flex align-items-center">
@@ -75,14 +69,20 @@ const Sidebar = () => {
               User Onboarding
             </span>
           </li>
-          <li className="sidebarListItem d-flex align-items-center">
-            <IoIosSettings className="sidebarIcon" />
-            <span
-              style={{ paddingLeft: "15px", fontSize: "15px" }}
-              className="fw-bold"
+          <li>
+            <NavLink
+              to="funds-transfer"
+              className="sidebarListItem d-flex align-items-center"
+              activeClassName="nav--active"
             >
-              Settings
-            </span>
+              <IoIosSettings className="sidebarIcon" />
+              <span
+                style={{ paddingLeft: "15px", fontSize: "15px" }}
+                className="fw-bold"
+              >
+                Settings
+              </span>
+            </NavLink>
           </li>
         </ul>
       </div>

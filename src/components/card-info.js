@@ -28,3 +28,18 @@ export const cardData = [
     arrow: "assets/arrow-up.svg",
   },
 ];
+
+export const smallCardData = [
+  {
+    backImage: "../../assets/circle-1.png",
+    cardIcon: "assets/work.svg",
+    cardTitle: "Transfer Funds",
+    cardText: "Send funds to your customers",
+  },
+  {
+    backImage: "../../assets/circle-2.png",
+    cardIcon: "assets/game.svg",
+    cardTitle: "Pay Bills",
+    cardText: "Pay for your utilities here",
+  },
+];

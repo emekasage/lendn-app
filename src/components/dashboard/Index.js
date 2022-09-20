@@ -5,7 +5,7 @@ import Topbar from "./topbar/Topbar";
 
 const Index = () => {
   return (
-    <div className="">
+    <div>
       <Sidebar />
       <div>
         <Topbar />
