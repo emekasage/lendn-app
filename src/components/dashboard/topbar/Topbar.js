@@ -2,8 +2,16 @@ import React from "react";
 import "./topbar.css";
 import { BiSearch } from "react-icons/bi";
 import { RiUserLine } from "react-icons/ri";
+import { useNavigate } from "react-router-dom";
 
 const Topbar = () => {
+  const getEmail = localStorage.getItem("emailData");
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    localStorage.clear();
+    navigate("/");
+  };
   return (
     <div className="topbar float-end">
       <div className="topbarWrapper">
@@ -26,7 +34,7 @@ const Topbar = () => {
             />
           </div>
           <div>
-            <span className="topbarText me-3">Venty Loans</span>
+            <span className="topbarText me-3">{getEmail}</span>
           </div>
           <div className="dropdown">
             <div
@@ -62,6 +70,7 @@ const Topbar = () => {
                 <div
                   className="dropdown-item active"
                   style={{ cursor: "pointer" }}
+                  onClick={handleLogout}
                 >
                   Log Out
                 </div>

@@ -60,4 +60,8 @@
     height: 20px;
     color: #E41613;
 }
+
+.dropdown-item.active {
+    background-color: #E41613 !important;
+}
   

@@ -8,3 +8,10 @@
     line-height: 32px;
     color: #030229;
 }
+
+.profileImage {
+    background: #FAFAFB;
+    border-radius: 50%;
+    max-width: 174px;
+    width: 100%;
+}
