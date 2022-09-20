@@ -1,0 +1,12 @@
+.news {
+    font-family: 'Nunito', sans-serif;
+    background-color: #E5E5E5;
+    height: 120vh;
+}
+
+.bgText {
+    font-size: 24px;
+    line-height: 32px;
+    color: #030229;
+    padding: 0 20px;
+}

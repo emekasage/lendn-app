@@ -3,7 +3,7 @@ import "./sidebar.css";
 import { NavLink } from "react-router-dom";
 import { AiFillHome } from "react-icons/ai";
 import { HiUsers } from "react-icons/hi";
-import { FaRegListAlt, FaPlay } from "react-icons/fa";
+import { FaRegListAlt, FaPlay, FaRegNewspaper } from "react-icons/fa";
 import { BsFillEnvelopeFill } from "react-icons/bs";
 import { IoIosSettings } from "react-icons/io";
 
@@ -81,6 +81,21 @@ const Sidebar = () => {
                 className="fw-bold"
               >
                 Settings
+              </span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="news"
+              className="sidebarListItem d-flex align-items-center"
+              activeClassName="nav--active"
+            >
+              <FaRegNewspaper className="sidebarIcon" />
+              <span
+                style={{ paddingLeft: "15px", fontSize: "15px" }}
+                className="fw-bold"
+              >
+                News
               </span>
             </NavLink>
           </li>

@@ -29,7 +29,7 @@ const Topbar = () => {
         <div className="topRight">
           <div className="topbarIconContainer">
             <img
-              src="assets/notification-bell.png"
+              src="../../assets/notification-bell.png"
               style={{ width: "37px", height: "37px" }}
             />
           </div>

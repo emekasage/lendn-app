@@ -1,6 +1,7 @@
 .dashboard {
     font-family: 'Roboto', sans-serif;
     background-color: #E5E5E5;
+    height: 100%;
 }
 
 .cardTitle, .card-amount {

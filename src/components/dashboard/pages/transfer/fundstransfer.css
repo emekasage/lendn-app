@@ -1,17 +1,66 @@
 .fundstransfer {
     font-family: 'Nunito', sans-serif;
     background-color: #E5E5E5;
+    height: 120vh;
 }
 
 .bgText {
     font-size: 24px;
     line-height: 32px;
     color: #030229;
+    padding: 0 20px;
 }
 
 .profileImage {
-    background: #FAFAFB;
+    background: url(../../../../../public/assets/proImg.png);
     border-radius: 50%;
     max-width: 174px;
     width: 100%;
+    height: 174px;
+    cursor: pointer;
+}
+
+.transferLabel {
+    color: #030229;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+}
+
+.formOption select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.formOption select::-ms-expand {
+    display: none;
+}
+
+.formOption {
+    position: relative;
+}
+
+.transferField {
+    max-width: 450px;
+    width: 100%;
+    background: #FAFAFB;
+    border-radius: 10px;
+    padding: 20px 15px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #030229;
+    opacity: 0.7;
+}
+
+.transferField.select {
+    background: url(../../../../../public/assets/export-caret.svg) no-repeat right #FAFAFB;
+    background-position-x: 95%;   
+}
+
+.calendarImg {
+    right: 10%;
+    top: 73%;
 }
