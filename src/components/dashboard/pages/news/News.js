@@ -12,7 +12,7 @@ const News = () => {
         "https://newsapi.org/v2/top-headlines?country=ng&apiKey=a8bfcd5eb2f6477bb8fcbded3eb577c3"
       );
       setArticles(res.data.articles);
-      //   console.log(res);
+      console.log(res);
     };
     getArticles();
   }, []);
