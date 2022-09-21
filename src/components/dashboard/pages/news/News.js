@@ -9,9 +9,9 @@ const News = () => {
   useEffect(() => {
     const getArticles = async () => {
       const res = await Axios.get(
-        "https://newsapi.org/v2/top-headlines?country=ng&apiKey=a8bfcd5eb2f6477bb8fcbded3eb577c3"
+        "https://newsdata.io/api/1/news?apikey=pub_11516ec355f3250b3071d07414b9bee010cc0&country=ng"
       );
-      setArticles(res.data.articles);
+      setArticles(res.data.results);
       console.log(res);
     };
     getArticles();
@@ -33,7 +33,7 @@ const News = () => {
                     >
                       <div className="card">
                         <img
-                          src={newsItem.urlToImage}
+                          src={newsItem.image_url}
                           className="card-img-top"
                           alt="..."
                         />
