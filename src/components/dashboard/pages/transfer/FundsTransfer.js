@@ -47,7 +47,7 @@ const FundsTransfer = () => {
                   onClick={() => imageUploader.current.click()}
                 />
               </div>
-              <form className="py-4">
+              <form className="py-5">
                 <div className="row d-flex mb-5 ms-4">
                   <div className="col formOption">
                     <label className="transferLabel">Select Account</label>
@@ -56,7 +56,7 @@ const FundsTransfer = () => {
                       <option>...</option>
                     </select>
                   </div>
-                  <div className="col">
+                  <div className="col position-relative">
                     <label className="transferLabel">Amount</label>
                     <input
                       type="text"
@@ -80,11 +80,6 @@ const FundsTransfer = () => {
                       placeholder="Enter Account Number"
                       aria-label="0.00"
                     />
-                    <img
-                      src="../../assets/calendar.svg"
-                      alt="calendar-icon"
-                      className="calendarImg position-absolute"
-                    />
                   </div>
                   <div className="col formOption">
                     <label className="transferLabel">Select Bank</label>
@@ -103,11 +98,6 @@ const FundsTransfer = () => {
                       placeholder="Enter Account Name"
                       aria-label="0.00"
                     />
-                    <img
-                      src="../../assets/calendar.svg"
-                      alt="calendar-icon"
-                      className="calendarImg position-absolute"
-                    />
                   </div>
                   <div className="col">
                     <label className="transferLabel">VAT</label>
@@ -116,11 +106,6 @@ const FundsTransfer = () => {
                       className="transferField"
                       placeholder="Enter VAT"
                       aria-label="0.00"
-                    />
-                    <img
-                      src="../../assets/calendar.svg"
-                      alt="calendar-icon"
-                      className="calendarImg position-absolute"
                     />
                   </div>
                 </div>

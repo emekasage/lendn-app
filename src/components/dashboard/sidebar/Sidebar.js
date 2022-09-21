@@ -11,9 +11,8 @@ const Sidebar = () => {
   return (
     <div className="sidebar float-start pt-4">
       <div className="py-3 d-flex justify-content-center align-items-center mx-auto">
-        <img src="assets/logo.png" alt="" />
+        <img src="../../assets/logo.png" alt="" />
       </div>
-      {/** Dashboard Menu **/}
       <div className="sidebarMenu my-5">
         <ul className="sidebarList">
           <li>

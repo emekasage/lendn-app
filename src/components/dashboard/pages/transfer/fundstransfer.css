@@ -1,7 +1,7 @@
 .fundstransfer {
     font-family: 'Nunito', sans-serif;
     background-color: #E5E5E5;
-    height: 120vh;
+    height: 150vh;
 }
 
 .bgText {
@@ -27,7 +27,6 @@
     font-weight: 600;
     margin-bottom: 10px;
     display: block;
-    position: relative;
 }
 
 .formOption select {
@@ -61,6 +60,6 @@
 }
 
 .calendarImg {
-    right: 10%;
-    top: 73%;
+    right: 15%;
+    top: 50%;
 }

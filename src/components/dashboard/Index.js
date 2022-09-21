@@ -9,10 +9,9 @@ const Index = () => {
       <Sidebar />
       <div>
         <Topbar />
-        <div className="col p-0">
-          {/* Page Content here */}
-          <Outlet />
-        </div>
+
+        {/* Page Content here */}
+        <Outlet />
       </div>
     </div>
   );

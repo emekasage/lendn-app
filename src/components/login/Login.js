@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./login.css";
 
 const Login = () => {
+  // collect user input
   const useFormInput = (initialValue) => {
     const [value, setValue] = useState(initialValue);
 
@@ -20,6 +21,7 @@ const Login = () => {
   const email = useFormInput("");
   const password = useFormInput("");
 
+  // store user input in local storage and navigate to dashboard
   const handleLogin = () => {
     if (email.value == "abc@gmail.com" && password.value == "12345") {
       localStorage.setItem("emailData", "abc@gmail.com");
