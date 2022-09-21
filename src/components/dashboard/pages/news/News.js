@@ -12,7 +12,7 @@ const News = () => {
         "https://newsdata.io/api/1/news?apikey=pub_11516ec355f3250b3071d07414b9bee010cc0&country=ng"
       );
       setArticles(res.data.results);
-      console.log(res);
+      //   console.log(res);
     };
     getArticles();
   }, []);
@@ -33,7 +33,11 @@ const News = () => {
                     >
                       <div className="card">
                         <img
-                          src={newsItem.image_url}
+                          src={
+                            newsItem.image_url !== null
+                              ? newsItem.image_url
+                              : "../../assets/Optimized-breaking-news.jpg"
+                          }
                           className="card-img-top"
                           alt="..."
                         />
